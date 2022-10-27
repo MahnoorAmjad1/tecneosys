@@ -1,0 +1,897 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #EEF2F7;
+
+}
+
+section {
+    padding: 30px 10px;
+}
+
+.container {
+    max-width: 1100px;
+    /* min-height:auto; */
+    margin: 0px auto;
+}
+
+/* header section  */
+header .row {
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;/ */
+    Height: 70px;
+    Top: -517px;
+    Left: -700px;
+}
+
+header .logo a {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    color: #0D328D;
+    text-decoration: none;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+header ul {
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+header ul li a {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+/* .drop-btn{
+    display: none;
+} */
+/* .drop-btn img {
+    
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    
+    border: none;
+} */
+
+/* .col {
+    display: inline-block;
+} */
+
+/* .dropdown-content {
+    display: none;
+
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} */
+
+/*hero section*/
+main .container2 {
+    max-width: 1100px;
+    margin: 0px auto;
+    background-image: url('../images/Vector\ 2\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main .col2 {
+    display: flex;
+    align-items: center;
+    height: 570px;
+    width: 100%;
+    margin-left: 80px;
+}
+
+main .row2 {
+    width: 1100px;
+}
+
+main h1 {
+    font-family: Cerebri Sans Pro;
+    font-size: 38px;
+    color: white;
+}
+
+/* cards section */
+
+.container3 {
+    max-width: 1100px;
+    min-height: 600px;
+    text-align: center;
+    margin: 0px auto;
+
+}
+
+.row3 {
+    position: relative;
+    min-height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -130px;
+
+}
+
+.col3 {
+    background-color: #FFFFFF;
+    ;
+    width: 233px;
+    min-height: 246px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(206, 204, 204, 0.25);
+    margin: 10px 20px;
+    padding: 10px;
+
+}
+
+/* detail section */
+.container4 {
+    max-width: 1100px;
+    min-height: 450px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: -290px;
+}
+
+section .img {
+    max-width: 100%;
+    margin-left: 81px;
+    margin-top: 56px;
+}
+
+.col4 {
+    max-width: 35%;
+    margin-left: 24px;
+    margin-top: 62px;
+    text-align: left;
+}
+
+.row4 {
+    display: flex;
+
+}
+
+span {
+    color: #0D328D;
+}
+
+h3 {
+    color: #000000;
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+section .btn {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 208px;
+    height: 40px;
+    color: #FFFFFF;
+    background: #0D328D;
+    box-shadow: 2px 4px 4px 2px rgba(140, 140, 140, 0.25);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* what we do */
+.container5 {
+    margin: 0px auto;
+    max-width: 1100px;
+    height: 300px;
+
+}
+
+.row5 {
+    display: flex;
+}
+
+.col5 {
+    margin-top: 65px;
+    max-width: 40%;
+    margin-left: 100px;
+}
+
+.col5 h1 {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.col5 p {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 14px;
+
+    color: #000000;
+}
+
+.col5 img {
+    max-width: 80%;
+}
+
+/* Services section */
+.container6 {
+    width: 1100px;
+    height: 500px;
+    margin: 0px auto;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 4px 4px rgba(199, 199, 199, 0.25);
+}
+
+.row6 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 146px;
+    align-items: center;
+}
+
+.col6 {
+    width: 35%;
+    padding-left: 171px;
+    padding-top: 75px;
+    margin-left: -45px;
+    margin-top: 60px;
+}
+
+.col6 h1 {
+    margin-top: -68px;
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    padding: 10px;
+}
+
+
+/* rectangles */
+.col6 h6 {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 52px;
+}
+
+.rectangle1 {
+    position: relative;
+    width: 160px;
+    height: 153px;
+    background: linear-gradient(133.69deg, #062267 38.45%, #021C5B 89.03%);
+    border-radius: 12px;
+    margin-left: -94px;
+    margin-top: 18px;
+}
+
+.rectangle1 img {
+    position: relative;
+    left: 35%;
+    right: 12%;
+    top: 32%;
+    bottom: 0%;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 160px;
+    height: 153px;
+    background: linear-gradient(180deg, #0D328D 0%, #011C5C 100%);
+    border-radius: 12px;
+    margin-top: -260px;
+    margin-left: -2px;
+
+}
+
+.rectangle2 img {
+    position: relative;
+    left: 41%;
+    right: 12%;
+    top: 32%;
+    bottom: 0%;
+
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 160px;
+    height: 153px;
+    background: linear-gradient(133.69deg, #0D328D 12.8%, #001549 89.03%);
+    border-radius: 12px;
+    margin-top: -312px;
+    margin-left: 115px;
+}
+
+.rectangle3 img {
+    position: relative;
+    left: 41%;
+    right: 12%;
+    top: 32%;
+    bottom: 0%;
+}
+
+.rectangle4 {
+    position: absolute;
+    width: 160px;
+    height: 153px;
+    background: linear-gradient(180deg, #0D328D 0%, #001853 100%);
+    border-radius: 12px;
+    margin-top: -199px;
+    margin-left: 247px;
+}
+
+.rectangle4 img {
+    position: relative;
+    left: 41%;
+    right: 12%;
+    top: 32%;
+    bottom: 0%;
+}
+
+.rectangle5 {
+    position: absolute;
+    width: 160px;
+    height: 153px;
+    background: linear-gradient(180deg, #0D328D 0%, #021C5B 100%);
+    border-radius: 12px;
+    margin-left: 133px;
+    margin-top: -87px;
+}
+
+.rectangle5 img {
+    position: relative;
+    left: 41%;
+    right: 12%;
+    top: 32%;
+    bottom: 0%;
+}
+
+.rectangle6 {
+    position: absolute;
+    width: 160px;
+    height: 153px;
+    background: linear-gradient(180deg, #0D328D 0%, #021C5B 100%);
+    border-radius: 12px;
+    margin-left: -7px;
+    margin-top: -29px;
+
+}
+
+.rectangle6 img {
+    /* position: absolute; */
+    position: relative;
+    left: 41%;
+    right: 12%;
+    top: 32%;
+    bottom: 0%;
+}
+
+.secrow2 {
+    display: flex;
+}
+
+.para img {
+
+    width: 83%;
+    height: 85%;
+    padding-top: 30px;
+    margin-left: 6px;
+
+}
+
+.para2 {
+    padding-top: 117px;
+    width: 47%;
+    height: 205px;
+
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: -117px;
+    color: #000000;
+}
+
+.para2 h1 {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 41px;
+}
+
+.para2 p {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 14px;
+    color: #000000;
+}
+
+/* Empower section */
+.container7 {
+    margin: 0px auto;
+    max-width: 1100px;
+    height: 0px;
+
+}
+
+.row7 {
+    margin-top: 419px;
+    max-width: 100%;
+}
+
+.Empower h1 {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.Empower p {
+    color: #818995;
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* form */
+
+.container8 {
+    margin: 0px auto;
+    position: relative;
+    max-width: 1100px;
+    min-height: 450px;
+
+    box-shadow: 3px 4px 4px rgba(120, 120, 120, 0.25);
+    background-image: url('../images/christopher-gower-m_HRfLhgABo-unsplash.png');
+    z-index: 1;
+}
+
+.container8::after {
+    background-image: linear-gradient(rgba(50, 76, 139, 0.8),
+            rgba(0, 0, 0, 0.8), rgba(0, 24, 84, 0.8));
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.col8 {
+    margin-top: 163px;
+    max-width: 40%;
+    margin-left: 216px;
+
+}
+
+.rectangle {
+
+    display: flex;
+}
+
+.rectangle h1 {
+    width: 37px;
+    height: 6px;
+    background: #FFFFFF;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.rectangle h2 {
+    width: 37px;
+    height: 6px;
+    background: #FFFFFF;
+    text-align: center;
+    margin-left: 334px;
+}
+
+.row8 {
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+form h3 {
+    margin-top: 100px;
+}
+
+.detail {
+    text-align: center;
+    max-width: 100%;
+}
+
+.name {
+    width: 30%;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 14px;
+}
+
+.email {
+    width: 30%;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 14px;
+}
+
+.phone {
+    width: 30%;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 14px;
+}
+
+.company {
+    width: 30%;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 14px;
+}
+
+.address {
+    width: 713px;
+    height: 121px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.submit {
+    width: 176px;
+    height: 46px;
+    margin: 27px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container9 {
+    margin: 0px auto;
+    width: 1100px;
+    height: 400px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    /* background-image: url('../images/Ellipse\ 2.png'); */
+    background: clip;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.row9 {
+    display: inline-block;
+    max-width: 100%;
+    list-style-type: none;
+    margin: 10px;
+    height: 30%;
+    display: flex;
+    margin: 10px;
+    text-align: left;
+    padding-left: 200px;
+}
+
+footer li {
+    list-style-type: none;
+    font-weight: 700;
+    color: #000000;
+}
+
+footer li a {
+    font-weight: 700;
+    color: #000000;
+}
+
+.tag {
+    display: flex;
+}
+
+.tag h3 {
+    width: 629px;
+    height: 0px;
+    background: #0D328D;
+    box-shadow: 2px 4px 4px 3px rgb(157 157 157 / 25%);
+    border-radius: 2px;
+    padding-top: 10px;
+    margin-top: 46px;
+    margin-left: 14px;
+}
+
+footer h1 {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    padding-top: 30px;
+    color: #0D328D;
+    padding-left: 20px;
+}
+
+
+.row9 h1 {
+    font-size: 24px;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: #000000;
+}
+
+footer .circle-img{
+    position: absolute;
+    margin-left: 783px;
+    margin-top: -300px;
+    max-width: 100%;
+    /* z-index: 1; */
+    clip: auto;
+}
+.r-col1 {
+    width: 20%;
+}
+
+.r-col2 {
+    width: 24%;
+    padding-left: 40px;
+
+}
+
+.r-col2 li {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(90, 38, 38);
+    margin: 10px;
+}
+
+.r-col3 {
+    width: 20%;
+    padding-left: 40px;
+}
+
+.r-col3 li {
+    margin: 10px;
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.r-col4 {
+    width: 20%;
+    padding-left: 40px;
+}
+
+.r-col4 li {
+    margin: 10px;
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* bottom bar */
+
+.bottombar {
+    width: 1100px;
+    height: 27px;
+    text-align: center;
+    background: #0D328D;
+    padding-top: 16px;
+}
+
+footer h6 {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.container10 {
+    margin: 0px auto;
+    width: 1100px;
+}
+
+/* queries */
+@media screen and (max-width: 992px) {
+    .row {
+        max-width: 100%;
+
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .col li {
+        font-size: 8px;
+    }
+
+    .drop-btn {
+        display: none;
+    }
+
+    .row3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col3 {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* .row{
+ flex-wrap: wrap;
+ max-width: 100%;
+    } */
+
+    header ul {
+        display: none;
+    }
+
+    .drop-btn {
+        background-color: grey;
+        padding: 5px;
+        border: none;
+    }
+
+    .dropdown-content {
+        display: none;
+        /* background-color: #f9f9f9; */
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* hero section */
+    main .hero {
+        width: 100%;
+        height: 300px;
+    }
+
+    main .row2 {
+        width: 100%;
+    }
+
+    main h1 {
+        font-size: 20px;
+    }
+
+    /* cards section */
+    .row3 {
+        flex-wrap: wrap;
+    }
+
+    /* detail section */
+    section .img {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .row4 {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .btn {
+        max-width: 150px;
+        font-size: 10px;
+    }
+
+    .container4 {
+        margin-top: 0px;
+    }
+
+    /* we do section */
+    .row5 {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+/* services */
+.row6{
+ flex-wrap: wrap;
+}
+    /* form */
+    .col8 {
+        margin-top: 757px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /* hero section */
+    main .row2 {
+        width: 100%;
+    }
+
+    main h1 {
+        font-size: 20px;
+    }
+
+    /* cards section */
+    /* .row3 {
+        flex-direction: column;
+    } */
+    .col3 {
+        width: 40%;
+        /* margin: 10px 10%; */
+    }
+}
